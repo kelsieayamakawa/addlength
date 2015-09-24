@@ -5,10 +5,10 @@
 var testarray = ["apple", "pear"];
 
 function addlength (list1) {
-  return _.keys(testarray),
+  return _.map(list1,
       function(key) {
-        return {key, 'length'};
-  }
+        return key + " " + key.length;
+  });
 }
 
 console.log(addlength(testarray));
