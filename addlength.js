@@ -12,3 +12,5 @@ function addlength (list1) {
 }
 
 console.log(addlength(testarray));
+
+// Time: 19 min 58 sec
